@@ -36,6 +36,7 @@ export default function App() {
               <a href="#home" className="text-foreground hover:text-primary transition-colors">Home</a>
               <a href="#about" className="text-foreground hover:text-primary transition-colors">About</a>
               <a href="#services" className="text-foreground hover:text-primary transition-colors">Services</a>
+              <a href="/McDaniel_Energy_Prospect_Package.pdf" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">Prospect Package</a>
               <a href="#contact" className="text-foreground hover:text-primary transition-colors">Contact</a>
             </div>
 
