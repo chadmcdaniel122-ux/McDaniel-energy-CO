@@ -1,6 +1,7 @@
 import { Menu, X, ChevronDown, Drill, Factory, Shield, Users, Award, Phone, Mail, MapPin, Linkedin, Facebook, Twitter } from 'lucide-react';
 import { useState } from 'react';
 import { motion } from 'motion/react';
+import { Analytics } from '@vercel/analytics/react';
 import { ImageWithFallback } from './components/figma/ImageWithFallback';
 import { ContactForm } from './components/ContactForm';
 import logo from '../imports/ChatGPT_Image_May_25__2026__12_14_28_PM.png';
@@ -415,6 +416,7 @@ export default function App() {
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
